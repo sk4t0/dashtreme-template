@@ -1,7 +1,7 @@
 {
-    "name": "infyomlabs/adminlte-templates",
+    "name": "sk4t0/dashtreme-template",
     "type": "library",
-    "description": "AdminLTE templates for InfyOm Laravel Generator",
+    "description": "Dashtreme templates for Laravel Generator",
     "keywords": [
         "infyom",
         "laravel",
@@ -13,7 +13,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Mitul Golakiya",
+            "name": "Salvatore Nalbone",
             "email": "me@mitul.me"
         }
     ],
@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "InfyOm\\AdminLTETemplates\\": "src/"
+            "Sk4t0\\DashtremeTemplate\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "\\InfyOm\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
+                "\\Sk4t0\\DashtremeTemplate\\DashtremeTemplateServiceProvider"
             ]
         }
     }
