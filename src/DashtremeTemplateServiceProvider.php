@@ -15,7 +15,7 @@ class DashtremeTemplateServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__.'/../views', 'dashtreme-template');
         $this->publishes([
-            __DIR__.'/../assets' => public_path('dashtreme/assets'),
+            __DIR__.'/../assets' => public_path('assets/dashtreme'),
         ], 'public');
     }
 
